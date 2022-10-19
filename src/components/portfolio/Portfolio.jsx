@@ -11,16 +11,16 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Ubersect group website',
+    title: 'Ubersect Group Website',
     github: 'https://github.com',
     demo: 'https://ubersect.de',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'TBD',
-    github: 'https://github.com',
-    demo: 'https://google.com'
+    title: 'Tango With Django 2',
+    github: 'https://github.com/Kai8a/tango_with_django',
+    demo: 'https://www.tangowithdjango.com/'
   },
   {
     id: 3,
