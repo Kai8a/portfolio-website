@@ -11,7 +11,7 @@
 }
 
 :root {
-    --color-bg: linear-gradient(to left, #051937, #002b41, #003a3e, #1d4734, #475130);;
+    --color-bg: linear-gradient(to right top, #2d2d74, #003c78, #004670, #004c62, #005054, #004f55, #004f57, #004e58, #004764, #003c6c, #352c66, #550d4f);
     --color-bg-variant: #005998;
     --color-primary: #05d3f8;
     --color-primary-variant: #05d3f8;
