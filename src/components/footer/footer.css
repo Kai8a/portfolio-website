@@ -1,0 +1,21 @@
+.footer__socials {
+    text-align: center;
+    gap: 1rem;
+}
+
+.footer__section {
+    background-color: var(--color-bg-variant);
+    border: 1px solid transparent;
+}
+
+.footer__section:hover{
+    border-color: var(--color-primary-variant);
+    transition: var(--transition);
+    background-color: transparent;
+}
+
+.footer__text {
+    color: #fff;
+    text-align: center;
+    gap: 0.8rem;
+}

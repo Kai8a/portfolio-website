@@ -16,6 +16,6 @@ const Nav = () => {
       <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
       </nav>
   )
-}
+  }
 
 export default Nav
