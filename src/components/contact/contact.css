@@ -36,6 +36,14 @@
     font-size: 0.8rem;
 }
 
+.msg {
+    color: white;
+}
+
+.msg:hover {
+    color: black;
+}
+
 /* FORM */
 
 form {
@@ -53,4 +61,21 @@ textarea {
     border: 2px solid var(--color-primary-variant);
     resize: none;
     color: var(--color-white);
+}
+
+/* Media Queries (MEDIUM DEVICES) */
+@media screen and (max-width: 1024px) {
+    .container.contact__container{
+        width: 70%;
+        grid-template-rows: 1fr;
+    }
+
+}
+
+/* Media Queries (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    .container.contact__container {
+        width: 50%;
+        grid-template-columns: 1fr;
+    }
 }

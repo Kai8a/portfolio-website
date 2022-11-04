@@ -1,21 +1,20 @@
 .footer__socials {
+    color: #fff;
     text-align: center;
-    gap: 1rem;
+    margin: 20px;
 }
 
 .footer__section {
-    background-color: var(--color-bg-variant);
     border: 1px solid transparent;
 }
 
 .footer__section:hover{
     border-color: var(--color-primary-variant);
     transition: var(--transition);
-    background-color: transparent;
+    background-color: var(--color-primary-variant);
 }
 
 .footer__text {
     color: #fff;
-    text-align: center;
-    gap: 0.8rem;
+    text-align: left;
 }

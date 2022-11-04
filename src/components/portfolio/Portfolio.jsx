@@ -11,16 +11,16 @@ const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'Ubersect Group Website',
+    title: 'TBD',
     github: 'https://github.com',
     demo: 'https://ubersect.de',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'Tango With Django 2',
-    github: 'https://github.com/Kai8a/tango_with_django',
-    demo: 'https://www.tangowithdjango.com/'
+    title: 'TBD',
+    github: 'https://github.com/',
+    demo: 'https://ubersect.de/'
   },
   {
     id: 3,
@@ -55,8 +55,8 @@ const data = [
 const portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>Projects I've done</h5>
-      <h2>Portfolio</h2>
+      <h5>Coaches that are</h5>
+      <h2>available on übersect</h2>
 
       <div className='container portfolio__container'>
         {
@@ -68,8 +68,8 @@ const portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn' target='_blank'>Github</a>
-                  <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={github} className='btn' id='btn' target='_blank'>Hire Now</a>
+                  <a href={demo} className='btn' id='btn-primary' target='_blank'>Video</a>
                 </div>
               </article>
               

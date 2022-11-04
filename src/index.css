@@ -11,10 +11,10 @@
 }
 
 :root {
-    --color-bg: linear-gradient(to right top, #2d2d74, #003c78, #004670, #004c62, #005054, #004f55, #004f57, #004e58, #004764, #003c6c, #352c66, #550d4f);
-    --color-bg-variant: #005998;
-    --color-primary: #05d3f8;
-    --color-primary-variant: #05d3f8;
+    --color-bg: linear-gradient(to right top, #414141, #535353, #656565, #787878, #8c8c8c);
+    --color-bg-variant: #1a1a1a;
+    --color-primary: #1b1b1b;
+    --color-primary-variant: #3d3d3d;
     --color-white: #fff;
     --color-light: rgba(255, 255, 255, 0.6);
 
