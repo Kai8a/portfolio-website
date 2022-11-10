@@ -1,62 +1,38 @@
 import React from 'react'
 import './portfolio.css'
-import IMG1 from '../../assets/portfolio1.jpg'
-import IMG2 from '../../assets/portfolio2.jpg'
-import IMG3 from '../../assets/portfolio3.jpg'
-import IMG4 from '../../assets/portfolio4.jpg'
-import IMG5 from '../../assets/portfolio5.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG1 from '../../assets/ubersect.png'
+import IMG2 from '../../assets/ubersect.png'
+import IMG3 from '../../assets/ubersect.png'
 
 const data = [
   {
     id: 1,
     image: IMG1,
-    title: 'TBD',
-    github: 'https://github.com',
+    title: 'üB Store',
+    github: '#store' ,
     demo: 'https://ubersect.de',
   },
   {
     id: 2,
     image: IMG2,
-    title: 'TBD',
-    github: 'https://github.com/',
-    demo: 'https://ubersect.de/'
+    title: 'Coming Soon!',
+    github: '',
+    demo: '',
   },
   {
     id: 3,
     image: IMG3,
-    title: 'TBD',
-    github: 'https://github.com',
-    demo: 'https://google.com'
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: 'TBD',
-    github: 'https://github.com',
-    demo: 'https://google.com'
-  },
-  {
-    id: 5,
-    image: IMG5,
-    title: 'TBD',
-    github: 'https://github.com',
-    demo: 'https://google.com'
-  },
-  {
-    id: 6,
-    image: IMG6,
-    title: 'TBD',
-    github: 'https://github.com',
-    demo: 'https://google.com'
+    title: 'Coming Soon!',
+    github: '',
+    demo: '',
   },
 ]
 
 const portfolio = () => {
   return (
     <section id='portfolio'>
-      <h5>Coaches that are</h5>
-      <h2>available on übersect</h2>
+      <h5>View all</h5>
+      <h2>übersect products</h2>
 
       <div className='container portfolio__container'>
         {
@@ -68,8 +44,8 @@ const portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className='portfolio__item-cta'>
-                  <a href={github} className='btn' id='btn' target='_blank'>Hire Now</a>
-                  <a href={demo} className='btn' id='btn-primary' target='_blank'>Video</a>
+                  <a href={github} className='btn' id='btn' target='_blank'>See Store</a>
+                  <a href={demo} className='btn' id='btn-primary' target='_blank'>Surprise me</a>
                 </div>
               </article>
               

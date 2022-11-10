@@ -20,7 +20,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon'  />
                 <div>
                   <h4>Tracking</h4>
-                  <small className='text-light'>Learn from players that have the smoothest aim out there</small>
+                  <small className='text-light'></small>
                 </div>
               </article>
             </div>
@@ -29,7 +29,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon' />
                 <div>
                   <h4>Flicking</h4>
-                  <small className='text-light'>Learn from players who have perfected the flick. Faster than light</small>
+                  <small className='text-light'></small>
                 </div>
               </article>
             </div>
@@ -38,7 +38,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon'  />
                 <div>
                   <h4>Target Switching</h4>
-                  <small className='text-light'>Learn from the Target Switching masters themselves</small>
+                  <small className='text-light'></small>
                 </div>
               </article>
             </div>
@@ -47,7 +47,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon'  />
                 <div>
                   <h4>All Around</h4>
-                  <small className='text-light'>Want to focus on all these skills? We do that too</small>
+                  <small className='text-light'></small>
                 </div>
               </article>
             </div>
@@ -62,7 +62,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon'  />
                 <div>
                   <h4>CS:GO</h4>
-                  <small className='text-light'>Learn from super talented CS:GO players with thousands of hours of experience</small>
+                  <small className='text-light'></small>
                 </div>
               </article>
             </div>
@@ -71,7 +71,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon'  />
                 <div>
                   <h4>Valorant</h4>
-                  <small className='text-light'>Learn from the most knowledgeable Valorant players South Africa has to offer</small>
+                  <small className='text-light'></small>
                 </div>                
               </article>
             </div>
@@ -80,7 +80,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon'  />
                 <div>
                   <h4>LoL</h4>
-                  <small className='text-light'>Learn from the best League of Legends players in the South African region</small>
+                  <small className='text-light'></small>
                 </div>                
               </article>
             </div>
@@ -89,7 +89,7 @@ const experience = () => {
                 <BsFillPatchCheckFill className='experience__details-icon'  />
                 <div>
                   <h4>Dota 2</h4>
-                  <small className='text-light'>Learn Dota 2 from Masters of the game, become an unstopable machine</small>
+                  <small className='text-light'></small>
                 </div>                
               </article>
             </div>
