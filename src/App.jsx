@@ -6,6 +6,7 @@ import Experience from './components/experience/Experience'
 import Contact from './components/contact/Contact'
 import Footer from './components/footer/Footer'
 import YoutubeEmbed from './components/youtube/Youtube'
+import PreLoader1 from './components/preloader/preloader1'
 
 
 const App = () => {

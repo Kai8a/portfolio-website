@@ -39,3 +39,19 @@
     height: 3rem;
     background: var(--color-primary);
 }
+
+/* Media Queries (SMALL DEVICES) */
+@media screen and (max-width: 600px) {
+    .video-responsive  {
+        width: 390px;
+        display: flex;
+        height: max-content;
+
+    }
+
+    .video-responsive iframe {
+        width: 390px;
+        display: flex;
+
+    }
+}

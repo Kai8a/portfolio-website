@@ -38,6 +38,9 @@ const contact = () => {
           <textarea name='message' rows='7' placeholder='Your Message' required></textarea>
           <button type='submit' className='btn btn-primary'>Send Message</button>
         </form>
+        <div>
+        <a href='#header' className='scroll__down'>Go To Top</a>
+        </div>
       </div>
     </section>
   )
