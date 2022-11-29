@@ -96,6 +96,9 @@ const experience = () => {
           </div>
         </div>
       </div>
+      <div className='button__more'>
+      <a href='#contact' className='btn btn-primary'>Find out more</a>
+      </div>
     </section>
   )
 }

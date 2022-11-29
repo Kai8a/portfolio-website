@@ -1,0 +1,41 @@
+.video-responsive {
+    display: flex;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video-responsive iframe {
+    display: flex;
+    border-radius: 25px;
+    margin: auto;
+    width: 75%;
+    height: 700px;
+    border: 3px solid var(--color-bg-variant);
+    transition: var(--transition);
+}
+
+.video-responsive iframe:hover {
+    border: 3px solid var(--color-light);
+    transition: var(--transition);
+
+
+}
+
+.youtube__socials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    position: inherit;
+    left: 0;
+    bottom: 3rem;
+}
+
+.youtube__socials::after {
+    content: '';
+    width: 2px;
+    height: 3rem;
+    background: var(--color-primary);
+}

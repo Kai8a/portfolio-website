@@ -4,7 +4,7 @@ import { AiOutlineHome } from 'react-icons/ai'
 import { AiOutlineRead } from 'react-icons/ai'
 import { CgGames } from 'react-icons/cg'
 import { BiMessageSquareDetail } from 'react-icons/bi'
-import { BiStore } from 'react-icons/bi'
+import { FiYoutube } from 'react-icons/fi'
 import { useState } from 'react'
 
 const Nav = () => {
@@ -14,7 +14,7 @@ const Nav = () => {
       <a href='#' ><AiOutlineHome /></a>
       <a href='#about' ><AiOutlineRead /></a>
       <a href='#experience' ><CgGames /></a>
-      <a href='#portfolio' ><BiStore /></a>
+      <a href='#youtube' ><FiYoutube /></a>
       <a href='#contact' ><BiMessageSquareDetail /></a>
     </nav>
   )
